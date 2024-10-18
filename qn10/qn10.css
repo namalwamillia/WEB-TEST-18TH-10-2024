@@ -1,4 +1,4 @@
-/* General form styling */
+
 form {
     width: 300px;
     margin: 0 auto;
@@ -16,10 +16,10 @@ input[type="email"],
 input[type="password"],
 input[type="number"],
 select {
-    width: 100%; /* Full width for inputs */
+    width: 100%; 
     padding: 8px;
-    margin: 10px 0; /* Add margin between form elements */
-    box-sizing: border-box; /* Ensure padding doesn't exceed width */
+    margin: 10px 0; 
+    box-sizing: border-box; 
 }
 
 input[type="radio"] {
@@ -32,17 +32,17 @@ label {
 
 
 input[type="submit"] {
-    background-color: green; /* Green background */
-    color: white; /* White text */
+    background-color: green; 
+    color: white; 
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    width: 100%; /* Full width for button */
-    border-radius: 5px; /* Rounded corners for button */
+    width: 100%;
+    border-radius: 5px; 
 }
 
 input[type="submit"]:hover {
-    background-color: darkgreen; /* Darken button on hover */
+    background-color: darkgreen; 
 }
 
 h1 {
