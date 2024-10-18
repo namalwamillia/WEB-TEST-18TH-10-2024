@@ -1,0 +1,51 @@
+/* General form styling */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px; 
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #cdc9bf;
+}
+
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%; /* Full width for inputs */
+    padding: 8px;
+    margin: 10px 0; /* Add margin between form elements */
+    box-sizing: border-box; /* Ensure padding doesn't exceed width */
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+label {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+
+input[type="submit"] {
+    background-color: green; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Full width for button */
+    border-radius: 5px; /* Rounded corners for button */
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen; /* Darken button on hover */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}

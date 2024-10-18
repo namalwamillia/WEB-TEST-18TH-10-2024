@@ -1,0 +1,79 @@
+<!-- Write a program to create Html Table hving Borders ND Alternate columns,
+  backkground colors using css.final out put, give it green border, centered heading. -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <style>
+
+        h1{
+            color: green;
+            text-align:center;
+        }
+        
+          table {
+            width: 80%;
+            margin: 0 auto; 
+            border-collapse: collapse; 
+            border: 1px solid black;
+            font-family: Arial, sans-serif;
+          }
+          
+         
+          th {
+            background-color: lightgreen;
+            border: 1px solid black;
+            padding: 10px;
+          }
+          
+         
+          td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+          }
+          
+          
+          td:nth-child(even) {
+            background-color: #f2f2f2; 
+          }
+          
+          td:nth-child(odd) {
+            background-color: #e6ffe6; 
+          }
+          
+          
+          tr:nth-child(even) {
+            background-color: #f9f9f9;
+          }
+          
+        table tr:first-child th {
+            border-top: 1px solid black; 
+          }
+          
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Table</title>
+    <link rel="stylesheet" href="./table.css">
+  </head>
+  <body>
+    <h1><b>Millias Table</b></h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+
+        <tr>
+            <td>John Doe</td>
+            <td>28</td>
+            <td>john@example.com</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
+
+        
